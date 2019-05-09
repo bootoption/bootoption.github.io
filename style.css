@@ -18,7 +18,7 @@ body {
 	position: relative;
 	font-size: 1.45em;
 	margin: 0 auto;
-	padding: 8% 0 0 1em;
+	padding: 2em 0 0 1em;
 	background-color: #fcfcfc;
 	max-width: 1000px;
 	min-height: 100%;
@@ -84,6 +84,7 @@ div#repo-link-box {
 	body {
 		font-size: 1.1em;
 		margin-left: 25%;
+		padding-top: 5.4em;
 	}
 	
 	a#repo-link {
