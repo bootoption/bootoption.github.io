@@ -16,11 +16,11 @@ html {
 
 body {
 	position: relative;
+	max-width: 48em;
 	font-size: 1.45em;
 	margin: 0 auto;
 	padding: 2em 0 0 1em;
 	background-color: #fcfcfc;
-	max-width: 1000px;
 	min-height: 100%;
 }
 
@@ -83,7 +83,7 @@ div#repo-link-box {
 @media only screen and (min-width: 900px) {
 	body {
 		font-size: 1.1em;
-		margin-left: 25%;
+		padding-left: 6em;
 		padding-top: 5.4em;
 	}
 	
