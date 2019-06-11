@@ -1,8 +1,14 @@
 * {
 	font-family: "Helvetica", sans-serif;
-	line-height: 100%;
+	font-weight: normal;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body * {
+	display: block;
+	line-height: 140%;
 }
 
 html, body {
@@ -11,7 +17,6 @@ html, body {
 
 html {
 	height: 100%;
-
 }
 
 body {
@@ -19,22 +24,31 @@ body {
 	max-width: 48em;
 	font-size: 1.45em;
 	margin: 0 auto;
-	padding: 2em 0 0 1em;
+	padding: 1em;
 	background-color: #fcfcfc;
 	min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 100%;
+	margin-bottom: 0.1em;
+}
+
+h1, h2, h3 {
+	font-weight: 600;
 }
 
 h1, h2, h3, ul, li, a:hover {
 	color: #1d1d1d;
 }
 
-h2, h3, li {
-	font-size: 1em;
-}
-
-h1 {
-	font-size: 2.3em;
-	margin-bottom: 0.2em;
+h3 {
+	margin-top: 1em;
 }
 
 a {
@@ -46,28 +60,14 @@ ul {
 	list-style-type: none;
 }
 
-ul#assets {
-	margin: 1.8em 0;
+li {
 }
 
-ul#assets li {
-	line-height: 1.65em;
-}
-
-ul#archive-list {
-	margin: 0.36em 0 0.72em 0;
-}
-
-ul#archive-list li {
-	line-height: 1.1em;
-}
-
-div#repo-link-box {
-	display: block;
-	font-weight: bold;
-	text-align: right;
-	padding: 4em 1em 2em 0;
-	font-size: 1em;
+a#repo-link {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	font-weight: 600;
 }
 
 @media only screen and (max-width: 549px) {
@@ -88,10 +88,8 @@ div#repo-link-box {
 	}
 	
 	a#repo-link {
-		position: absolute;
 		bottom: 1.4em;
 		right: 1.4em;
-		font-size: 1em;
 	}
 }
 
